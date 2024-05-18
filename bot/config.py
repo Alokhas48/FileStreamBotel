@@ -3,15 +3,15 @@ from os import environ as env
 class Telegram:
     API_ID = int(env.get("TELEGRAM_API_ID", 20173337))
     API_HASH = env.get("TELEGRAM_API_HASH", "f672963099862a8a20a5f7dfe27f4b56")
-    OWNER_ID = int(env.get("OWNER_ID", 1234567890))
+    OWNER_ID = int(env.get("OWNER_ID", 6667876837))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
-    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "BotFather")
-    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "1234:abcd")
-    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1001234567890))
+    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "Direct_Dl_Linux_Bot")
+    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "6477692662:AAH3Mag1sGpjntptYJLSu8QSPyEQhJnyeJI")
+    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1002072097127))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "http://127.0.0.1:8080")
+    BASE_URL = env.get("BASE_URL", "linux-bots-5f9c0c9701d5.herokuapp.com")
     BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
     PORT = int(env.get("PORT", 8080))
 
